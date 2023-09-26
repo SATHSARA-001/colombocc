@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AE14B4C1D0C367DB83D2490 /* Pods_ColomboCC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00568CAFA5821B352AD1041C /* Pods_ColomboCC.framework */; };
+		B82454212ABEAF52008AB3BB /* MobileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82454202ABEAF52008AB3BB /* MobileVM.swift */; };
+		B82454232ABEAF6D008AB3BB /* MobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82454222ABEAF6D008AB3BB /* MobileVC.swift */; };
+		B82454272ABEB581008AB3BB /* ApplicationServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82454262ABEB581008AB3BB /* ApplicationServiceProvider.swift */; };
+		B82454292ABEB615008AB3BB /* ApplicationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82454282ABEB615008AB3BB /* ApplicationControl.swift */; };
+		B82454372AC00988008AB3BB /* NotificationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82454362AC00988008AB3BB /* NotificationVM.swift */; };
+		B82454392AC009A3008AB3BB /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82454382AC009A3008AB3BB /* NotificationVC.swift */; };
+		B889DFD92ABE8854008A56DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DFD82ABE8854008A56DA /* AppDelegate.swift */; };
+		B889DFDB2ABE8854008A56DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DFDA2ABE8854008A56DA /* SceneDelegate.swift */; };
+		B889DFDD2ABE8854008A56DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DFDC2ABE8854008A56DA /* ViewController.swift */; };
+		B889DFE02ABE8854008A56DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B889DFDE2ABE8854008A56DA /* Main.storyboard */; };
+		B889DFE22ABE8856008A56DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889DFE12ABE8856008A56DA /* Assets.xcassets */; };
+		B889DFE52ABE8856008A56DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B889DFE32ABE8856008A56DA /* LaunchScreen.storyboard */; };
+		B889DFF22ABE8ADA008A56DA /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B889DFF12ABE8ADA008A56DA /* Auth.storyboard */; };
+		B889DFF42ABE8C57008A56DA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DFF32ABE8C57008A56DA /* LoginVC.swift */; };
+		B889DFF62ABE8C64008A56DA /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DFF52ABE8C64008A56DA /* LoginVM.swift */; };
+		B889E0012ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B889DFFA2ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		B889E0022ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B889DFFB2ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.m */; };
+		B889E0032ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B889DFFC2ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.m */; };
+		B889E0042ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B889DFFE2ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00568CAFA5821B352AD1041C /* Pods_ColomboCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColomboCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82454202ABEAF52008AB3BB /* MobileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVM.swift; sourceTree = "<group>"; };
+		B82454222ABEAF6D008AB3BB /* MobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVC.swift; sourceTree = "<group>"; };
+		B82454262ABEB581008AB3BB /* ApplicationServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationServiceProvider.swift; sourceTree = "<group>"; };
+		B82454282ABEB615008AB3BB /* ApplicationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationControl.swift; sourceTree = "<group>"; };
+		B82454362AC00988008AB3BB /* NotificationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVM.swift; sourceTree = "<group>"; };
+		B82454382AC009A3008AB3BB /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		B889DFD52ABE8854008A56DA /* ColomboCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColomboCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889DFD82ABE8854008A56DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B889DFDA2ABE8854008A56DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B889DFDC2ABE8854008A56DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B889DFDF2ABE8854008A56DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B889DFE12ABE8856008A56DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B889DFE42ABE8856008A56DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B889DFE62ABE8856008A56DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B889DFF12ABE8ADA008A56DA /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		B889DFF32ABE8C57008A56DA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B889DFF52ABE8C64008A56DA /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		B889DFF82ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		B889DFF92ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		B889DFFA2ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		B889DFFB2ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		B889DFFC2ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		B889DFFD2ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		B889DFFE2ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		B889DFFF2ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		B889E0002ABEAC6F008A56DA /* BarHopper-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BarHopper-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4269014F24C7DE20B155AC8 /* Pods-ColomboCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColomboCC.debug.xcconfig"; path = "Target Support Files/Pods-ColomboCC/Pods-ColomboCC.debug.xcconfig"; sourceTree = "<group>"; };
+		F4E7E17B4DAC140A61BB5FAD /* Pods-ColomboCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColomboCC.release.xcconfig"; path = "Target Support Files/Pods-ColomboCC/Pods-ColomboCC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B889DFD22ABE8854008A56DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE14B4C1D0C367DB83D2490 /* Pods_ColomboCC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B824541F2ABEAF2B008AB3BB /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				B82454202ABEAF52008AB3BB /* MobileVM.swift */,
+				B82454222ABEAF6D008AB3BB /* MobileVC.swift */,
+			);
+			name = Mobile;
+			sourceTree = "<group>";
+		};
+		B82454242ABEB431008AB3BB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B889DFF12ABE8ADA008A56DA /* Auth.storyboard */,
+				B889DFDE2ABE8854008A56DA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B82454252ABEB567008AB3BB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B82454282ABEB615008AB3BB /* ApplicationControl.swift */,
+				B82454262ABEB581008AB3BB /* ApplicationServiceProvider.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		B82454352AC00970008AB3BB /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B82454362AC00988008AB3BB /* NotificationVM.swift */,
+				B82454382AC009A3008AB3BB /* NotificationVC.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		B889DFCC2ABE8854008A56DA = {
+			isa = PBXGroup;
+			children = (
+				B889DFD72ABE8854008A56DA /* ColomboCC */,
+				B889DFD62ABE8854008A56DA /* Products */,
+				C1793A5EE59C4D3B406EB063 /* Pods */,
+				CB3AC51C443102A4A1BCA045 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B889DFD62ABE8854008A56DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B889DFD52ABE8854008A56DA /* ColomboCC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B889DFD72ABE8854008A56DA /* ColomboCC */ = {
+			isa = PBXGroup;
+			children = (
+				B82454252ABEB567008AB3BB /* Utilities */,
+				B889DFEF2ABE8A76008A56DA /* Auth */,
+				B889DFED2ABE8A16008A56DA /* Main */,
+				B82454242ABEB431008AB3BB /* Storyboards */,
+				B889DFEC2ABE89F8008A56DA /* Supporting Files */,
+				B889DFF72ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView */,
+				B889DFE12ABE8856008A56DA /* Assets.xcassets */,
+				B889DFE62ABE8856008A56DA /* Info.plist */,
+			);
+			path = ColomboCC;
+			sourceTree = "<group>";
+		};
+		B889DFEC2ABE89F8008A56DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B889DFD82ABE8854008A56DA /* AppDelegate.swift */,
+				B889DFDA2ABE8854008A56DA /* SceneDelegate.swift */,
+				B889DFE32ABE8856008A56DA /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B889DFED2ABE8A16008A56DA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B889DFDC2ABE8854008A56DA /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B889DFEF2ABE8A76008A56DA /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B82454352AC00970008AB3BB /* Notification */,
+				B824541F2ABEAF2B008AB3BB /* Mobile */,
+				B889DFF02ABE8A84008A56DA /* Login */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		B889DFF02ABE8A84008A56DA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B889DFF52ABE8C64008A56DA /* LoginVM.swift */,
+				B889DFF32ABE8C57008A56DA /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B889DFF72ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B889DFF82ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.h */,
+				B889DFF92ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.h */,
+				B889DFFA2ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				B889DFFB2ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.m */,
+				B889DFFC2ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.m */,
+				B889DFFD2ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				B889DFFE2ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.m */,
+				B889DFFF2ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.h */,
+				B889E0002ABEAC6F008A56DA /* BarHopper-Bridging-Header.h */,
+			);
+			path = TPKeyboardAvoidingScrollView;
+			sourceTree = "<group>";
+		};
+		C1793A5EE59C4D3B406EB063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4269014F24C7DE20B155AC8 /* Pods-ColomboCC.debug.xcconfig */,
+				F4E7E17B4DAC140A61BB5FAD /* Pods-ColomboCC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB3AC51C443102A4A1BCA045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00568CAFA5821B352AD1041C /* Pods_ColomboCC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B889DFD42ABE8854008A56DA /* ColomboCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889DFE92ABE8856008A56DA /* Build configuration list for PBXNativeTarget "ColomboCC" */;
+			buildPhases = (
+				B5E4C376A79C11EA59AFB2F4 /* [CP] Check Pods Manifest.lock */,
+				B889DFD12ABE8854008A56DA /* Sources */,
+				B889DFD22ABE8854008A56DA /* Frameworks */,
+				B889DFD32ABE8854008A56DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColomboCC;
+			productName = ColomboCC;
+			productReference = B889DFD52ABE8854008A56DA /* ColomboCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B889DFCD2ABE8854008A56DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B889DFD42ABE8854008A56DA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B889DFD02ABE8854008A56DA /* Build configuration list for PBXProject "ColomboCC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B889DFCC2ABE8854008A56DA;
+			productRefGroup = B889DFD62ABE8854008A56DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B889DFD42ABE8854008A56DA /* ColomboCC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B889DFD32ABE8854008A56DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889DFF22ABE8ADA008A56DA /* Auth.storyboard in Resources */,
+				B889DFE52ABE8856008A56DA /* LaunchScreen.storyboard in Resources */,
+				B889DFE22ABE8856008A56DA /* Assets.xcassets in Resources */,
+				B889DFE02ABE8854008A56DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5E4C376A79C11EA59AFB2F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColomboCC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B889DFD12ABE8854008A56DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889DFDD2ABE8854008A56DA /* ViewController.swift in Sources */,
+				B82454392AC009A3008AB3BB /* NotificationVC.swift in Sources */,
+				B889E0042ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				B82454272ABEB581008AB3BB /* ApplicationServiceProvider.swift in Sources */,
+				B82454232ABEAF6D008AB3BB /* MobileVC.swift in Sources */,
+				B82454212ABEAF52008AB3BB /* MobileVM.swift in Sources */,
+				B889E0032ABEAC6F008A56DA /* TPKeyboardAvoidingScrollView.m in Sources */,
+				B889E0012ABEAC6F008A56DA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				B889E0022ABEAC6F008A56DA /* TPKeyboardAvoidingTableView.m in Sources */,
+				B889DFD92ABE8854008A56DA /* AppDelegate.swift in Sources */,
+				B82454292ABEB615008AB3BB /* ApplicationControl.swift in Sources */,
+				B889DFF42ABE8C57008A56DA /* LoginVC.swift in Sources */,
+				B889DFDB2ABE8854008A56DA /* SceneDelegate.swift in Sources */,
+				B889DFF62ABE8C64008A56DA /* LoginVM.swift in Sources */,
+				B82454372AC00988008AB3BB /* NotificationVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B889DFDE2ABE8854008A56DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B889DFDF2ABE8854008A56DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B889DFE32ABE8856008A56DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B889DFE42ABE8856008A56DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B889DFE72ABE8856008A56DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B889DFE82ABE8856008A56DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B889DFEA2ABE8856008A56DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4269014F24C7DE20B155AC8 /* Pods-ColomboCC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6QD4GWD6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColomboCC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icanlk.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B889DFEB2ABE8856008A56DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E7E17B4DAC140A61BB5FAD /* Pods-ColomboCC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6QD4GWD6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColomboCC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icanlk.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B889DFD02ABE8854008A56DA /* Build configuration list for PBXProject "ColomboCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889DFE72ABE8856008A56DA /* Debug */,
+				B889DFE82ABE8856008A56DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B889DFE92ABE8856008A56DA /* Build configuration list for PBXNativeTarget "ColomboCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889DFEA2ABE8856008A56DA /* Debug */,
+				B889DFEB2ABE8856008A56DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B889DFCD2ABE8854008A56DA /* Project object */;
+}
