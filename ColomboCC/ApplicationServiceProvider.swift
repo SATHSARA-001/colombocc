@@ -71,4 +71,5 @@ extension String {
     static let OTPVC = NSLocalizedString("OTPVC", comment: "")
     static let NotificationVC = NSLocalizedString("NotificationVC", comment: "")
     static let EditLocationVC = NSLocalizedString("EditLocationVC", comment: "")
+    static let ConfirmLocationVC = NSLocalizedString("ConfirmLocationVC", comment: "")
 }

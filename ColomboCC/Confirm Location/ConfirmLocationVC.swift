@@ -1,13 +1,13 @@
 //
-//  EditLocationVC.swift
+//  ConfirmLocationVC.swift
 //  ColomboCC
 //
-//  Created by Sathsara Dharmarathna on 2023-10-01.
+//  Created by Sathsara Dharmarathna on 2023-10-02.
 //
 
 import UIKit
 
-class EditLocationVC: UIViewController {
+class ConfirmLocationVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,10 +15,7 @@ class EditLocationVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func adjustPin(_ sender: Any) {
-        ApplicationServiceProvider.shared.presentViewController(in: .Auth, for: .ConfirmLocationVC, from: self, style: .formSheet, data:true )
-    }
-    
+
     /*
     // MARK: - Navigation
 
