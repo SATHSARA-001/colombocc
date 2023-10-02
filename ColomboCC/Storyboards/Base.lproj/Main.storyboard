@@ -96,7 +96,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="rZw-gr-QKF">
             <objects>
-                <tabBarController id="SL8-TI-p23" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="SL8-TI-p23" customClass="TabBarController" customModule="ColomboCC" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="gqu-U3-xb8"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aR0-AO-2Ro">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
