@@ -31,6 +31,7 @@
 		B8CE90922AC9EF9D0044034C /* EditLocationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE90912AC9EF9D0044034C /* EditLocationVM.swift */; };
 		B8CE90952AC9F7700044034C /* ConfirmLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE90942AC9F7700044034C /* ConfirmLocationVC.swift */; };
 		B8CE90972AC9F77B0044034C /* ConfirmLocatonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE90962AC9F77B0044034C /* ConfirmLocatonVM.swift */; };
+		B8CE909B2ACA65E30044034C /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE909A2ACA65E30044034C /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		B8CE90912AC9EF9D0044034C /* EditLocationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLocationVM.swift; sourceTree = "<group>"; };
 		B8CE90942AC9F7700044034C /* ConfirmLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLocationVC.swift; sourceTree = "<group>"; };
 		B8CE90962AC9F77B0044034C /* ConfirmLocatonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLocatonVM.swift; sourceTree = "<group>"; };
+		B8CE909A2ACA65E30044034C /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		E4269014F24C7DE20B155AC8 /* Pods-ColomboCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColomboCC.debug.xcconfig"; path = "Target Support Files/Pods-ColomboCC/Pods-ColomboCC.debug.xcconfig"; sourceTree = "<group>"; };
 		F4E7E17B4DAC140A61BB5FAD /* Pods-ColomboCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColomboCC.release.xcconfig"; path = "Target Support Files/Pods-ColomboCC/Pods-ColomboCC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 		B889DFD72ABE8854008A56DA /* ColomboCC */ = {
 			isa = PBXGroup;
 			children = (
+				B8CE90982ACA65A10044034C /* Tab Bar */,
 				B8CE908B2AC9EF480044034C /* Location */,
 				B82454252ABEB567008AB3BB /* Utilities */,
 				B889DFEF2ABE8A76008A56DA /* Auth */,
@@ -221,6 +224,14 @@
 				B8CE90962AC9F77B0044034C /* ConfirmLocatonVM.swift */,
 			);
 			path = "Confirm Location";
+			sourceTree = "<group>";
+		};
+		B8CE90982ACA65A10044034C /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE909A2ACA65E30044034C /* TabBarVC.swift */,
+			);
+			path = "Tab Bar";
 			sourceTree = "<group>";
 		};
 		C1793A5EE59C4D3B406EB063 /* Pods */ = {
@@ -340,6 +351,7 @@
 			files = (
 				B889DFDD2ABE8854008A56DA /* ViewController.swift in Sources */,
 				B8CE90972AC9F77B0044034C /* ConfirmLocatonVM.swift in Sources */,
+				B8CE909B2ACA65E30044034C /* TabBarVC.swift in Sources */,
 				B82454392AC009A3008AB3BB /* NotificationVC.swift in Sources */,
 				B889E0042ABEAC6F008A56DA /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				B82454272ABEB581008AB3BB /* ApplicationServiceProvider.swift in Sources */,
